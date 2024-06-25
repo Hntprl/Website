@@ -1,0 +1,216 @@
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body
+{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/E23oCKLXEAULe9Z.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav
+{
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.links_cnt
+{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    min-width: 200px;
+    max-width: 400px;
+}
+
+.nav_link
+{
+    color: white;
+    font-weight: 590;
+}
+
+.logo_cnt
+{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    font-weight: 800;
+    font-size: 30px;
+    min-width: 200px;
+    max-width: 400px;
+}
+
+.reg_cnt
+{
+    padding-right: 5%;
+    font-weight: 590;
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    min-width: 200px;
+    max-width: 400px;
+}
+
+.reg_cnt a
+{
+    color: white;
+    border: 2px solid white;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+
+#nav_login
+{
+    margin-right: 3%;
+}
+
+a
+{
+    color: rgb(252, 47, 47);
+    text-decoration: none;
+}
+
+/* Login */
+
+.login_cnt
+{
+    position: absolute;
+   backdrop-filter: blur(12px);
+   border: 1px solid white;
+   border-radius: 10px;
+    height: 450px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+#login
+{
+    font-size: 50px;
+    color: white;
+}
+
+.inp_cnt
+{
+    margin-top: 25px;
+    height: 35%;
+    width: 85%;
+}
+
+.pi_cnt
+{
+    color: white;
+    height: 50%;
+    width: 100%;
+}
+
+.pi_cnt input
+{
+    height: 33px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px;
+}
+
+.pi_cnt i
+{
+    color: gray;
+    position: relative;
+    bottom: 24px;
+    left: 270px;
+}
+
+.rem_check
+{
+    height: 40px;
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+}
+
+.remember_cnt
+{
+    color: white;
+    height: 40px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remember_cnt a
+{
+    color: rgb(204, 19, 105);
+    text-decoration: underline;
+}
+
+#login_btn
+{
+    color: black;
+    font-size: 30px;
+    background-color: white;
+    padding: 8px 100px;
+    border-radius: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#regg
+{
+    color: white;
+    text-decoration: underline;
+}
+
+/* Hover Effects */
+
+.reg_cnt a:hover
+{
+    background-color: rgb(252, 47, 47);
+}
+
+
+.nav_link:hover
+{
+    color: rgb(252, 47, 47);
+}
+
+#login_btn:hover
+{
+    color: white;
+    background-color: rgb(252, 47, 47);
+    transition: all 0.2s ease;
+}
+
+#regg:hover
+{
+    color: rgb(204, 19, 105);
+    transition: all 0.2s ease;
+}
